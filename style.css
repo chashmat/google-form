@@ -1,0 +1,141 @@
+.mainDiv{
+    /*height: 100px;*/
+    width: 709px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 30px 20px 30px 30px;
+    margin: 25px 19% 0px 19%;
+}
+form{
+    display: inline-block;
+}
+.img{
+    padding-left: 48px;
+}
+h4{
+    display: inline-block;
+    margin-right: -4px;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    font-weight: 500;
+    font: 24px'Poppins', sans-serif;
+}
+.one{
+    color: #4285f4;
+}
+.two{
+    color: #ea4335;
+}
+.three{
+    color: #fbbc05;
+}
+.five{
+    color: #34a853;
+}
+button{
+    border: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+.btn1{
+    background-color: #fffffb;
+    color: #1a73e8;
+    padding: 1px 5px 1px 5px;
+}
+.btn1:hover{
+    background-color:  rgba(66,133,244,.26);
+    cursor: pointer;
+}
+.btn2{
+    background-color: #1a73e8;
+    color: #fffffb;
+    padding: 9px 25px 9px 25px;
+}
+.btn2:hover{
+    background-color: #0554ff;
+    box-shadow: 0px 1px 2px #1a73e8;
+    cursor: pointer;
+}
+h5{
+    color: #1a73e8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 0px;
+    cursor: pointer;
+}
+input{
+    padding: 10px 11px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    outline: none;
+    -webkit-transition: border 0.175s ease-in-out;
+    transition: border 0.175s ease-in-out;
+}
+input:focus{
+    border: 2px solid #0554ff;
+}
+input:focus::placeholder{
+    font: 11px sans-serif;
+    color: #0554ff;
+}
+.container1{
+    width: 402px;
+    display: grid;
+    justify-content: space-between;
+}
+.grid{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.container2{
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container3{
+    width: 402px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+figure{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+figcaption{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+i{
+    font-size: 1.25em;
+    color: #5a5a5a;
+    margin-top: 12px;
+    cursor: pointer;
+}
+h3{
+    /*font-family: 
+    font-weight: 150;*/
+    font: 24px'Poppins', sans-serif;
+}
+.s{
+    height: 15px;
+    width: 120px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.container4{
+    padding: 10px 5px 10px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 229px;
+    left: 44.5%;
+}
+/*
+    Create google  font-family: 'Noto Sans JP', sans-serif;
+    figCaption p h5    font-family: 'Roboto', sans-serif;
+*/
